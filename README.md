@@ -20,6 +20,8 @@ Présentation de la base de données:
 - Image de la propriété
 - Détails de la propriété
 - Prix de la propriété
+- Localisation
+- Superficie
 # administrator (nom de la table de l'administrateur)
 - id
 - identifiant
