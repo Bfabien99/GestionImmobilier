@@ -8,3 +8,47 @@ body{
     width: 100%;
     min-height: 100vh;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+nav{
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    gap: 1em;
+}
+
+nav ul{
+    flex-grow: 1;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 10vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: center;
+}
+
+.box-cont{
+    border: 1px solid grey;
+    padding:10px;
+    width: 300px;
+}
